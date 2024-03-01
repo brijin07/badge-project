@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Bestseller from './components/Bestseller';
+import Burger from './components/Burger';
+import Cardsproduct from './components/Cardsproduct';
+import Feturepost from './components/Feturepost';
+import Footer from './components/Footer';
+import Furniture from './components/Furniture';
+import Header from './components/Header';
+import Popular from './components/Popular';
+import Productitem from './components/Productitem';
+import Slider from './components/Slider';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Slider/>
+      <div className='container-fluid'>
+        <Productitem/>
+        <Furniture/>
+        <Popular/>
+        <Bestseller/>
+        <Burger/>
+        <Cardsproduct/>
+        <Feturepost/>
+        <Footer/>
+      </div>
+
+
     </div>
   );
 }
