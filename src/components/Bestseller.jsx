@@ -8,7 +8,7 @@ function Bestseller() {
     <div className="d-flex justify-center ">
       <div className="row p-2 md:p-5  w-[100%]  mt-[300%] sm:mt-[10%] ms-5">
         <div className="col-8  h-[500px]">
-          <div className=" p-3 w-full h-20 flex justify-around   border-b border-black-900   ">
+          <div className=" p-3 w-full h-20 flex justify-around   border-b border-black-900  ps-5  ">
             <h2 className="font-bold">BEST SELLER PRODUCTS</h2>
             <a href="#" className="text-black font-semibold hover:text-green">
               <p className="hover:text-blue-700">Men</p>
