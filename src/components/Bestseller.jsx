@@ -6,7 +6,7 @@ import img3 from "../Asset/product-cover-5 (1).png";
 function Bestseller() {
   return (
     <div className="d-flex justify-center ">
-      <div className="row w-[100%] p-5 md:p-0 mt-[250%] sm:mt-[10%] ms-5">
+      <div className="row p-2 md:p-5  w-[100%]  mt-[250%] sm:mt-[10%] ms-5">
         <div className="col-8  h-[500px]">
           <div className=" p-3 w-full h-20 flex justify-around   border-b border-black-900   ">
             <h2 className="font-bold">BEST SELLER PRODUCTS</h2>
@@ -109,7 +109,7 @@ function Bestseller() {
             </div>
           </div>
         </div>
-        <div className="furuteimg2 col-sm-4 bg-success h-[700px] w-[300px] sm:w-[260px] mt-[360%]  md:mt-0 p-3">
+        <div className="furuteimg2 col-sm-4 bg-success h-[700px] w-[300px] sm:w-[260px] mt-[330%]  md:mt-0 p-3">
           <h1 className="font-bold">Furniture</h1>
           <h2 className="font-semibold">5 items</h2>
         </div>
