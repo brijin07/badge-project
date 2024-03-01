@@ -4,7 +4,7 @@ import img2 from "../Asset/unsplash_X5BWooeO4Cw.png";
 
 function Burger() {
   return (
-    <div className="w-[80%]">
+    <div className="w-[80%] mt-5">
       <div className="flex justify-end">
         <div className="row  w-[80%] h-[500px]  sm:mt-5 ">
           <div className="col-sm-5 p-5 text-center">
