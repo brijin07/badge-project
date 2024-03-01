@@ -109,7 +109,7 @@ function Bestseller() {
             </div>
           </div>
         </div>
-        <div className="furuteimg2 col-sm-4 bg-success h-[700px] w-[300px] sm:w-[260px] mt-[330%]  md:mt-0 p-3">
+        <div className="furuteimg2 col-sm-4 bg-success h-[700px] w-[300px] sm:w-[260px] mt-[360%]  md:mt-0 p-3">
           <h1 className="font-bold">Furniture</h1>
           <h2 className="font-semibold">5 items</h2>
         </div>
