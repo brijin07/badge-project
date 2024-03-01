@@ -9,7 +9,7 @@ import img6 from "../Asset/card horizental (2).png";
 function Popular() {
   return (
     <div className="flex justify-center">
-      <div className="row  w-[60%] h-[500px] mt-[280%] sm:mt-5 ">
+      <div className="row  w-[60%] h-[500px] mt-[330%] sm:mt-5 ">
         <div className="col-sm-7">
           <img src={img} className="h-[500px]" alt="" />
         </div>
