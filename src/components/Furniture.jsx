@@ -7,7 +7,7 @@ function Furniture() {
   return (
     <>
       <div className="flex justify-center mt-5">
-        <div className="row w-[80%] p-5 md:p-0">
+        <div className="row w-[80%]  md:p-5">
           <div className="furuteimg1 col-sm-4 bg-success h-[700px] w-[300px] sm:w-[260px] p-3">
             <h1 className="font-bold">Furniture</h1>
             <h2 className="font-semibold">5 items</h2>
