@@ -26,8 +26,9 @@ function App() {
         <Burger/>
         <Cardsproduct/>
         <Feturepost/>
+          </div>
+
         <Footer/>
-      </div>
 
 
     </div>
