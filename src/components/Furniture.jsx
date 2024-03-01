@@ -12,7 +12,7 @@ function Furniture() {
             <h1 className="font-bold">Furniture</h1>
             <h2 className="font-semibold">5 items</h2>
           </div>
-          <div className="col-sm-8  h-[500px]  mt-6 md:mt-0">
+          <div className="col-sm-8  h-[500px]  mt-6 md:mt-0 ps-5">
             <div className=" p-3 w-full h-20 flex justify-around   border-b border-black-900   ">
               <h2 className="font-bold">BEST SELLER PRODUCTS</h2>
               <a href="#" className="text-black font-semibold hover:text-green">
