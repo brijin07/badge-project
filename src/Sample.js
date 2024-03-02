@@ -1,27 +1,12 @@
 import React from "react";
-import img from "../Asset/media bg-cover.png";
-import img1 from "../Asset/fixed-height.png";
-import img3 from "../Asset/product-cover-5.png";
-import img4 from "../Asset/product-cover-5 (2).png";
+import img from "../src/Asset/media bg-cover.png";
+import img1 from "../src/Asset/fixed-height.png";
 
-
-function Furniture() {
+const Sample = () => {
   return (
-    <>
-      <div>
-      {/* <div className='grid grid-cols-1 md:grid-cols-12 container w-[80%] gap-2 mt-3'>
-           <div className='h-[600px] bg-slate-200 w-full col-span-4 ' >
-            <img src={img} alt="" className='h-full w-full' />
-           </div>
-           <div className='h-[600px] bg-gray-600 w-full col-span-8 '>
-              <img src={img2} alt="" className='bg-cover h-full w-full' />
-           </div>
-        </div> */}
-
-      <div className="grid grid-cols-1 md:grid-cols-12  container w-[80%] mt-3  gap-2   ">
-        <div className=" col-span-8  md:col-span-3  bg-slate-300  h-[600px] border-b-2 border-red-100">
-          <img src={img} alt="" className="h-full w-full" />
-        </div>
+    <div>
+      <div className="grid grid-cols-1 md:grid-cols-12  container w-[80%] mt-10 gap-2  ">
+        
         <div className="col-span-8  md:h-[600px]">
           <div className=" w-full h-[90px] md:h-[60px] p-3  flex flex-col  items-center  md:flex-row justify-around  ">
             <div>
@@ -29,10 +14,9 @@ function Furniture() {
             </div>
             <div>
               <ul className="flex gap-2 font-semibold	">
-                  <li  className="hover:text-blue-700">Men</li>
-  
-               <li className="hover:text-blue-700">Women</li>
-                <li className="hover:text-blue-700">Accessories</li>
+                <li>MEN</li>
+                <li>WOMEN</li>
+                <li>ACCESSORIES</li>
               </ul>
             </div>
             <div className="ms-2  w-[130px]  flex justify-around ">
@@ -65,7 +49,7 @@ function Furniture() {
             </div>
             <div class="col-span-4   text-center">
 <div className="flex justify-center ">
-                    <img src={img3} alt=""  />
+                    <img src={img1} alt=""  />
     
 </div>                <h1 className="font-bold mt-2">Graphic Design</h1>
               <h2 className="text-grey-900 font-semibold mt-2">
@@ -78,7 +62,7 @@ function Furniture() {
 
             <div class="col-span-4   text-center">
 <div className="flex justify-center ">
-                    <img src={img4} alt=""  />
+                    <img src={img1} alt=""  />
     
 </div>                <h1 className="font-bold mt-2">Graphic Design</h1>
               <h2 className="text-grey-900 font-semibold mt-2">
@@ -102,7 +86,7 @@ function Furniture() {
             </div>
             <div class="col-span-4   text-center">
 <div className="flex justify-center ">
-                    <img src={img3} alt=""  />
+                    <img src={img1} alt=""  />
     
 </div>                <h1 className="font-bold mt-2">Graphic Design</h1>
               <h2 className="text-grey-900 font-semibold mt-2">
@@ -114,7 +98,7 @@ function Furniture() {
             </div>
             <div class="col-span-4   text-center">
 <div className="flex justify-center ">
-                    <img src={img4} alt=""  />
+                    <img src={img1} alt=""  />
     
 </div>                <h1 className="font-bold mt-2">Graphic Design</h1>
               <h2 className="text-grey-900 font-semibold mt-2">
@@ -126,10 +110,14 @@ function Furniture() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    </>
-  );
-}
 
-export default Furniture;
+        <div className=" col-span-8  md:col-span-3  bg-slate-300  h-[600px] border-b-2 border-red-100">
+          <img src={img} alt="" className="h-full w-full" />
+        </div>
+      </div>
+       
+    </div>
+  );
+};
+
+export default Sample;

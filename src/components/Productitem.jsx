@@ -1,15 +1,25 @@
 import React from "react";
+import img from '../Asset/card-item.png'
+import img1 from '../Asset/col-5.png'
+import img2 from '../Asset/col-md-4.png'
+
+
 
 function Productitem() {
   return (
-    <div className="flex justify-center pe-[200px] md:pe-0 md:p-2">
-      <div className="grid grid-cols-1 gap-3 w-[70%] md:w-[90%]  mt-5 md:grid-cols-3    	">
-        <div className="productimg1 w-[300px] h-[300px] bg-cover  border-grey-200 border-2  rounded"></div>
+    <div className=" sm:h-[300px] w-[80%] gap-3  justify-center  items-center grid grid-cols-1 sm:grid-cols-3 container mt-2">
+   
+<div className="flex justify-center">
+                <img src={img2} alt="" className="h-[200px] border-2 rounded" />
 
-        <div className="productimg2 w-[300px] h-[300px]  bg-slate-500 border-grey-200 border-2 bg-cover rounded"></div>
+</div>          
+<div className="flex justify-center">
+  <img src={img} alt="" className="h-[200px] border-2  rounded" />
+</div>            
+<div className="flex justify-center">
+    <img src={img1} alt="" className=" border-2 h-[200px] rounded" />
 
-        <div className="productimg3 w-[300px] h-[300px]  bg-slate-500 border-grey-200 border-2 bg-cover rounded"></div>
-      </div>
+</div>
     </div>
   );
 }

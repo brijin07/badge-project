@@ -8,10 +8,10 @@ import img6 from "../Asset/card horizental (2).png";
 
 function Popular() {
   return (
-    <div className="flex justify-center">
-      <div className="row  w-[60%] h-[500px] mt-[280%] sm:mt-5 ">
+    <div className="flex justify-center container ">
+      <div className="row  w-[85%] md:h-[600px] mt-5  sm:mt-5 ">
         <div className="col-sm-7">
-          <img src={img} className="h-[500px]" alt="" />
+          <img src={img} className=" sm:h-[500px]" alt="" />
         </div>
         <div className="col-sm-5 p-5 text-center">
           <h1 className="font-bold">MOST POPULAR</h1>
@@ -29,17 +29,17 @@ function Popular() {
             <span className="text-dark">$16.48</span> $6.48
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 ">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-4  container">
+          <div className="flex justify-center">
             <img src={img3} className="h-[100px] w-[200px]" alt="" />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img src={img4} className="h-[100px] w-[200px]" alt="" />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img src={img5} className="h-[100px] w-[200px]" alt="" />
           </div>
-          <div>
+          <div className="flex justify-center">
             <img src={img6} className="h-[100px] w-[200px]" alt="" />
           </div>
         </div>

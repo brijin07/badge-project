@@ -1,4 +1,5 @@
 import './App.css';
+import Sample from './Sample';
 import Bestseller from './components/Bestseller';
 import Burger from './components/Burger';
 import Cardsproduct from './components/Cardsproduct';
@@ -26,8 +27,10 @@ function App() {
         <Burger/>
         <Cardsproduct/>
         <Feturepost/>
+        </div>
+
         <Footer/>
-      </div>
+        {/* <Sample/> */}
 
 
     </div>
