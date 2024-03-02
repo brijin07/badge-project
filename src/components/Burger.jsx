@@ -10,15 +10,9 @@ import img5 from "../Asset/Frame.png";
 
 function Burger() {
   return (
-<<<<<<< HEAD
     <div >
       {/* <div className="flex justify-end " >
         <div className="row  w-[80%] sm:h-[500px]  sm:mt-5 ">
-=======
-    <div className="w-[80%] mt-5">
-      <div className="flex justify-end">
-        <div className="row  w-[80%] h-[500px]  sm:mt-5 ">
->>>>>>> 24ec90e23ed3f3f4de2735e9ffcb8cbb42392485
           <div className="col-sm-5 p-5 text-center">
             <h1 className="font-bold">MOST POPULAR</h1>
             <p className="mt-3 font-light">

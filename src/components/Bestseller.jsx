@@ -11,7 +11,6 @@ import img4 from "../Asset/product-cover-5 (2).png";
 
 function Bestseller() {
   return (
-<<<<<<< HEAD
     <div>
     {/* <div className='grid grid-cols-1 md:grid-cols-12 container w-[80%] gap-2 mt-3'>
          <div className='h-[600px] bg-slate-200 w-full col-span-4 ' >
@@ -37,28 +36,6 @@ function Bestseller() {
                 <li className="hover:text-blue-700">Accessories</li>
               </ul>
             </div>
-=======
-    <div className="d-flex justify-center ">
-      <div className="row p-2 md:p-5  w-[90%]  mt-[300%] sm:mt-[10%] ms-5">
-        <div className="col-8  h-[500px]">
-          <div className=" p-3 w-full h-20 flex justify-around   border-b border-black-900  ps-5  ">
-            <h2 className="font-bold">BEST SELLER PRODUCTS</h2>
-            <a href="#" className="text-black font-semibold hover:text-green">
-              <p className="hover:text-blue-700">Men</p>
-            </a>
-            <a
-              href="#"
-              className="text-black font-semibold  hover:text-green-700"
-            >
-              <p className="hover:text-blue-700">Women</p>
-            </a>
-            <a
-              href="#"
-              className="text-black font-semibold  hover:text-blue-500"
-            >
-              <p className="hover:text-blue-700">Accessories</p>
-            </a>
->>>>>>> 24ec90e23ed3f3f4de2735e9ffcb8cbb42392485
             <div className="ms-2  w-[130px]  flex justify-around ">
                 <button
                   type="button"
@@ -150,15 +127,9 @@ function Bestseller() {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
 
         <div className=" col-span-8  md:col-span-3  bg-slate-300  h-[600px] border-b-2 border-red-100">
           <img src={img2} alt="" className="h-full w-full" />
-=======
-        <div className="furuteimg2 col-sm-4 bg-success h-[700px] w-[300px] sm:w-[260px] mt-[390%]  md:mt-0 p-3">
-          <h1 className="font-bold">Furniture</h1>
-          <h2 className="font-semibold">5 items</h2>
->>>>>>> 24ec90e23ed3f3f4de2735e9ffcb8cbb42392485
         </div>
       </div>
   </div>

@@ -8,7 +8,6 @@ import img4 from "../Asset/product-cover-5 (2).png";
 function Furniture() {
   return (
     <>
-<<<<<<< HEAD
       <div>
       {/* <div className='grid grid-cols-1 md:grid-cols-12 container w-[80%] gap-2 mt-3'>
            <div className='h-[600px] bg-slate-200 w-full col-span-4 ' >
@@ -37,33 +36,6 @@ function Furniture() {
               </ul>
             </div>
             <div className="ms-2  w-[130px]  flex justify-around ">
-=======
-      <div className="flex justify-center mt-5">
-        <div className="row w-[80%]  md:p-5">
-          <div className="furuteimg1 col-sm-4 bg-success h-[700px] w-[300px] sm:w-[260px] p-3">
-            <h1 className="font-bold">Furniture</h1>
-            <h2 className="font-semibold">5 items</h2>
-          </div>
-          <div className="col-sm-8  h-[500px]  mt-6 md:mt-0 ps-5">
-            <div className=" p-3 w-full h-20 flex justify-around   border-b border-black-900   ">
-              <h2 className="font-bold">BEST SELLER PRODUCTS</h2>
-              <a href="#" className="text-black font-semibold hover:text-green">
-                <p className="hover:text-blue-700">Men</p>
-              </a>
-              <a
-                href="#"
-                className="text-black font-semibold  hover:text-green-700"
-              >
-                <p className="hover:text-blue-700">Women</p>
-              </a>
-              <a
-                href="#"
-                className="text-black font-semibold  hover:text-blue-500"
-              >
-                <p className="hover:text-blue-700">Accessories</p>
-              </a>
-              <div className="ms-2  w-[130px]  flex justify-around ">
->>>>>>> 24ec90e23ed3f3f4de2735e9ffcb8cbb42392485
                 <button
                   type="button"
                   class="btn btn-dark rounded-pill w-[45px] h-[45px] "
