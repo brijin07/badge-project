@@ -8,8 +8,13 @@ import img6 from "../Asset/card horizental (2).png";
 
 function Popular() {
   return (
+<<<<<<< HEAD
     <div className="flex justify-center container ">
       <div className="row  w-[85%] md:h-[600px] mt-5  sm:mt-5 ">
+=======
+    <div className="flex justify-center">
+      <div className="row  w-[60%] h-[500px] mt-[330%] sm:mt-5 ">
+>>>>>>> 24ec90e23ed3f3f4de2735e9ffcb8cbb42392485
         <div className="col-sm-7">
           <img src={img} className=" sm:h-[500px]" alt="" />
         </div>

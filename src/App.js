@@ -27,10 +27,16 @@ function App() {
         <Burger/>
         <Cardsproduct/>
         <Feturepost/>
+<<<<<<< HEAD
         </div>
 
         <Footer/>
         {/* <Sample/> */}
+=======
+          </div>
+
+        <Footer/>
+>>>>>>> 24ec90e23ed3f3f4de2735e9ffcb8cbb42392485
 
 
     </div>
